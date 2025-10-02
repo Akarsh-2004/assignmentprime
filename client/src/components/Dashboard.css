@@ -1,0 +1,125 @@
+/* Dashboard container */
+.dashboard-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.dashboard-container h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Form styling */
+.dashboard-container form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.dashboard-container form input {
+  flex: 1;
+  min-width: 140px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.dashboard-container form input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 3px rgba(52, 152, 219, 0.5);
+}
+
+.dashboard-container form button {
+  background: #3498db;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dashboard-container form button:hover {
+  background: #2980b9;
+}
+
+/* Task list */
+.dashboard-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  transition: background 0.2s;
+}
+
+.dashboard-container li:hover {
+  background: #f1f7ff;
+}
+
+/* Task details */
+.dashboard-container li b {
+  color: #2c3e50;
+}
+
+.dashboard-container li span.status {
+  font-size: 13px;
+  font-weight: bold;
+  color: #888;
+  margin-left: 8px;
+}
+
+.dashboard-container li span.done {
+  color: #27ae60;
+}
+
+.dashboard-container li span.open {
+  color: #e67e22;
+}
+
+/* Task action buttons */
+.dashboard-container li button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dashboard-container li button:first-of-type {
+  background: #27ae60;
+  color: #fff;
+}
+
+.dashboard-container li button:first-of-type:hover {
+  background: #1e874b;
+}
+
+.dashboard-container li button:last-of-type {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.dashboard-container li button:last-of-type:hover {
+  background: #c0392b;
+}
